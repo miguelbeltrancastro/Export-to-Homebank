@@ -8,3 +8,5 @@ It has a GUI and here it how it works:
 1. When launching the program, it will automatically ask you to select the input file.
 2. You have to select for what bank is that file comming from
 3. You click the Export button and you will get a CSV file with the movements of the bank statement in the format that Homebank accepts for its imports
+
+![Employee data](/Export-to-Homebank/screenshot.png?raw=true "GUI screenshot")
