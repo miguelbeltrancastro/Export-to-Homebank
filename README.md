@@ -10,3 +10,5 @@ It has a GUI and here it how it works:
 3. You click the Export button and you will get a CSV file with the movements of the bank statement in the format that Homebank accepts for its imports
 
 ![Screenshot](/screenshot.png?raw=true "GUI screenshot")
+
+Read the Supported-Banks.md file to find the list of supported banks.
