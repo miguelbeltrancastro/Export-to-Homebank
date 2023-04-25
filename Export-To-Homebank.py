@@ -43,7 +43,7 @@ def export_file(selected_bank,filename):
                     line_count = 0
                     for row in csv_reader:
                         if line_count >12:
-                            output_writer.writerow([f'{row[0]}', 6, '', '', f'{row[2]}'+' ('+f'{row[4]}'+')', f'{row[7]}'.replace('.',''), '', ''])
+                            output_writer.writerow([f'{row[0]}', 6, '', '', f'{row[2]}'+' ('+f'{row[5]}'+')', f'{row[8]}'.replace('.',''), '', ''])
                             line_count += 1
                         else:
                             line_count += 1
