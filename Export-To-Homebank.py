@@ -24,7 +24,7 @@ def export_file(selected_bank,filename):
                     csv_reader = csv.reader(csv_file, delimiter=';')
                     #Go through each row of the input file
                     for row in csv_reader:
-                        if line_count >9:
+                        if line_count >8:
                             #For each row with content, add a new row to the export CSV file ordering the value as appropriate
                             output_writer.writerow([f'{row[0]}', 6, '', '', f'{row[5]}'+' ('+f'{row[3]}'+')', f'{row[6]}'.replace('.','').replace(' €',''), '', ''])
                             line_count += 1
